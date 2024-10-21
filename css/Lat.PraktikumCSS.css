@@ -1,0 +1,69 @@
+body {
+    font-family: Times new roman, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+    font-family: Times new roman;
+    font-size: 16;
+    color: black;
+}
+th, td {
+    border: 1.5px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: limegreen;
+    color: black;
+    font-size: 14;
+}
+h3 {
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+    font-family: Times new roman;
+    font-size: 16;
+}
+tbody{
+    font-size: 12;
+}
+
+tbody td:nth-child(2),
+tbody td:nth-child(6)
+{
+        padding-left: 12;
+        text-align: left;
+}
+tbody td:nth-child(7),
+tbody td:nth-child(8)
+{
+        padding-left: 12;
+        text-align: right;
+}
+tfoot {
+    font-weight: bold;
+    background-color: limegreen;
+    font-size: 14;
+}
+
+.lokasi {
+    text-align: center;
+    font-weight: bold;
+}
+ .namaitem {
+    text-align: left;
+}
+.highlight {
+    background-color: yellow;
+}    
+.highlight2 {
+    background-color: pink;
+}
+.total-row {
+    font-weight: bold;
+    background-color: limegreen;
+    font-size: 14;
+}
